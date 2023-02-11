@@ -6,11 +6,13 @@
   }
   
   .flex-container > div {
-    background-color: black;
     margin-left: 50px;
     margin-right: 10px;
     padding-left: 50px;
     padding-right: 50px;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
   }
   
 #navbar {

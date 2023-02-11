@@ -19,6 +19,7 @@
 }
 
 #navbar a {
+  font-size: x-large;
   float: left;
   display: block;
   color: #f2f2f2;
@@ -39,4 +40,26 @@
 
 .sticky + .content {
   padding-top: 60px;
+}
+
+.table {
+  font-size: large;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table td, .table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table tr:nth-child(even){background-color: #f2f2f2;}
+
+.table th {
+
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: grey;
+  color: white;
 }

@@ -6,6 +6,8 @@
   }
   
   .flex-container > div {
+    margin-left: 60px;
+    margin-right: 10px;
     padding-left: 50px;
     padding-right: 50px;
     display: block;
